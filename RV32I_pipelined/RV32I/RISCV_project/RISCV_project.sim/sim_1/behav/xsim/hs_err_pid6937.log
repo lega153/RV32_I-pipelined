@@ -1,0 +1,24 @@
+#
+# An unexpected error has occurred (6)
+#
+Stack:
+/lib/x86_64-linux-gnu/libc.so.6(+0x42520) [0x7acb96c42520]
+/lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c) [0x7acb96c969fc]
+/lib/x86_64-linux-gnu/libc.so.6(raise+0x16) [0x7acb96c42476]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0xd3) [0x7acb96c287f3]
+/home/stefan/modelovanje/Vivado/2020.2/lib/lnx64.o/Ubuntu/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x15d) [0x7acb9749033d]
+/home/stefan/modelovanje/Vivado/2020.2/lib/lnx64.o/Ubuntu/libstdc++.so.6(+0x8e316) [0x7acb9748e316]
+/home/stefan/modelovanje/Vivado/2020.2/lib/lnx64.o/Ubuntu/libstdc++.so.6(+0x8e361) [0x7acb9748e361]
+/home/stefan/modelovanje/Vivado/2020.2/lib/lnx64.o/Ubuntu/libstdc++.so.6(+0x8ee2f) [0x7acb9748ee2f]
+/home/stefan/modelovanje/Vivado/2020.2/lib/lnx64.o/librdi_wavedata.so(+0x2fa57e) [0x7acb4d4fa57e]
+/home/stefan/modelovanje/Vivado/2020.2/lib/lnx64.o/librdi_wavedata.so(SG_Model::WaveformRender::render(SG_Model::WVDataObject const&)+0xb5) [0x7acb4d506b35]
+/home/stefan/modelovanje/Vivado/2020.2/lib/lnx64.o/librdi_wavedata.so(WaveViewer::WVWaveformPanel::WaveformTraverser::drawWaveform(SG_Model::WVDataObject const*, int, int)+0x2eb) [0x7acb4d58387b]
+/home/stefan/modelovanje/Vivado/2020.2/lib/lnx64.o/librdi_wavedata.so(WaveViewer::WVWaveformPanel::WaveformTraverser::handleItemSize(WaveViewer::WVNameValueTreeModel::ITraverseHandler::ItemSize const&)+0x4a) [0x7acb4d583b5a]
+/home/stefan/modelovanje/Vivado/2020.2/lib/lnx64.o/librdi_wavedata.so(WaveViewer::WVNameValueTreeModel::traverseYRange(SG_Model::WVDataObject const*, WaveViewer::WVNameValueTreeModel::ITraverseHandler&, int, int, int&, int&) const+0x268) [0x7acb4d555d58]
+/home/stefan/modelovanje/Vivado/2020.2/lib/lnx64.o/librdi_wavedata.so(WaveViewer::WVNameValueTreeModel::traverseYRange(SG_Model::WVDataObject const*, WaveViewer::WVNameValueTreeModel::ITraverseHandler&, int, int, int&, int&) const+0x336) [0x7acb4d555e26]
+/home/stefan/modelovanje/Vivado/2020.2/lib/lnx64.o/librdi_wavedata.so(WaveViewer::WVNameValueTreeModel::traverseYRange(WaveViewer::WVNameValueTreeModel::ITraverseHandler&, int, int) const+0x57) [0x7acb4d556e37]
+/home/stefan/modelovanje/Vivado/2020.2/lib/lnx64.o/librdi_wavedata.so(WaveViewer::WVWaveformPanel::getGraphics(HDGDStringStream&, long&)+0x3c5) [0x7acb4d582d75]
+/home/stefan/modelovanje/Vivado/2020.2/lib/lnx64.o/librdi_wavedata.so(WVExecutiveImp::getGraphicsDataSize()+0x10a) [0x7acb4d54738a]
+/home/stefan/modelovanje/Vivado/2020.2/lib/lnx64.o/librdi_wavedata.so(WVExecutive::getGraphicsDataSize()+0xf) [0x7acb4d5478af]
+/home/stefan/modelovanje/Vivado/2020.2/lib/lnx64.o/librdi_wavedata.so(Java_ui_views_waveform_waveformi_WVExecutive_1getGraphicsDataSize+0x17) [0x7acb4d58e037]
+[0x7acb1f80f8b0]
